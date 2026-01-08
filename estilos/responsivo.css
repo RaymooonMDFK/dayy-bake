@@ -1,0 +1,19 @@
+/*-- RESPONSIVE --*/
+
+/*-- CELULARES --*/
+
+@media (max-width: 480px) {
+
+    /*.productos{
+        width: 100%;
+    }*/
+    .catalogo {}
+
+    .productos {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: 400px;
+        justify-content: flex-start;
+    }
+}

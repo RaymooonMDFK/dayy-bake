@@ -1,0 +1,66 @@
+/*=== GLOBALES ===*/
+:root {
+    --color-primario: #F9F7F2;
+    --color-secundario: #18486c;
+    --color-fondo: #f5f5f5;
+    --color-texto-1: #333333;
+    --color-texto-2: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/*--- INDEX ---*/
+
+/*-- HEADER --*/
+.encabezado-1 {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.encabezado1-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.encabezado1-p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.encabezado-2 {
+    background-color: var(--color-primario);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: relative; 
+    z-index: 10;
+}
+
+.navegacion-fija {
+    padding: 10px 0;
+}
+
+.navegacion-fija a {
+    color: var(--color-secundario);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/*-- FOOTER --*/
+footer {
+    background-color: var(--color-secundario);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

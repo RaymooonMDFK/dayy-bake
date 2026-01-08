@@ -1,0 +1,85 @@
+/*=== INDEX ===*/
+
+/*-- MAIN --*/
+.hero {
+    background-color: var(--color-fondo);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: var(--color-secundario);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--color-texto);
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*-- BUTTONS --*/
+.btn-hero {
+    border-bottom: solid 2px var(--color-secundario);
+    background-color: transparent;
+    color: var(--color-secundario);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-texto-2);
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+/*-- CARDS --*/
+.catalogo{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.catalogo h2{
+    font-size: 28px;
+    color: var(--color-texto-1);
+    margin-bottom: 20px;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    width: 1150px;
+}
+
+.productos .producto{
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+.producto h3{
+    font-size: 20px;
+    color: var(--color-texto-1);
+}
