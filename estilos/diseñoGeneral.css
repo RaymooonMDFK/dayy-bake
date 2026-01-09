@@ -37,10 +37,14 @@
 }
 
 .encabezado-2 {
+    display: flex;
     background-color: var(--color-primario);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    position: relative; 
+    position: relative;
     z-index: 10;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .navegacion-fija {
@@ -52,6 +56,22 @@
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+}
+
+.redes-sociales img {
+    width: 25px;
+    height: 25px;
+    margin-right: 35px;
+}
+
+.redes-sociales a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales a:hover {
+    opacity: 0.7;
 }
 
 /*-- FOOTER --*/
