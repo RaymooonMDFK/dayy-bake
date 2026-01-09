@@ -45,6 +45,7 @@
     }
     .productos-p h3{
         font-size: 13px;
+        word-wrap: break-word;
     }
 
     /*-- NOSOTROS --*/
