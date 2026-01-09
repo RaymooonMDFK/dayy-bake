@@ -13,7 +13,7 @@ function cargarHeader() {
                 <a href="index.html" class="navegacion-enlace">Inicio</a>
                 <a href="productos.html" class="navegacion-enlace">Productos</a>
                 <a href="nosotros.html" class="navegacion-enlace">Nosotros</a>
-                <a href="contacto.html" class="navegacion-enlace">Contacto</a>
+                <a href="contactanos.html" class="navegacion-enlace">Contacto</a>
             </nav>
         </div>
     `;

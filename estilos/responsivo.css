@@ -3,14 +3,44 @@
 /*-- CELULARES --*/
 
 @media (max-width: 480px) {
-    .encabezado1-p {
+
+    /*-- index --*/
+    body {
+        background-size: 50%;
+    }
+
+    .encabezado-2 a {
         font-size: 14px;
     }
+
     .productos {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
-        max-width: 400px;
-        justify-content: flex-start;
+        max-width: 360px;
+        margin-left: 0;
+        justify-content: start;
+    }
+
+    .productos img {
+        width: 300px;
+        height: 250px;
+    }
+
+
+
+    /*-- productos --*/
+    .productos-p {
+        display: flex;
+        max-width: 360px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    .productos-p .img-p {
+        width: 160px;
+        height: 137px;
     }
 }

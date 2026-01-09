@@ -1,4 +1,13 @@
 /*=== INDEX ===*/
+body {
+    background-image: url(../img/logo-fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.92);
+}
 
 /*-- MAIN --*/
 .hero {
@@ -47,20 +56,15 @@
 }
 
 /*-- CARDS --*/
-.catalogo{
+.catalogo {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.catalogo h2{
-    font-size: 28px;
-    color: var(--color-texto-1);
-    margin-bottom: 20px;
-}
 
-.productos{
+.productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,17 +73,43 @@
     width: 1150px;
 }
 
-.productos .producto{
+.productos .producto {
     justify-content: center;
     gap: 20px;
 }
 
-.producto img{
+.producto img {
     width: 350px;
     height: 300px;
     object-fit: cover;
 }
-.producto h3{
+
+.producto h3 {
     font-size: 20px;
     color: var(--color-texto-1);
+}
+
+
+/*-- PRODUCTOS --*/
+.catalogo-p {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    width: 1150px;
+}
+
+.img-p {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
 }
